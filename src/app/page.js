@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "@/components/Hero";
 import Scroll from "@/components/Scroll";
 import AboutCard from "@/components/AboutCard";
+import SelfImprov from "@/components/SelfImprov";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Scroll />
       <AboutCard />
+      <SelfImprov />
       <Footer />
     </>
   );
